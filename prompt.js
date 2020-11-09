@@ -38,3 +38,15 @@ function modulus(){
     let remainder = Number(num1) % Number(num2);
     console.log(`The remainder of ${num1} divided by ${num2} is ${remainder} .`);
 }
+
+function randomNum(){
+    console.log(`The randomly generated number between 1 and 35 is ${Math.floor(Math.random() * 35) + 1}`)
+}
+
+function ceil(){
+    console.log(`The floating number 4.4 rounded to the nearest integer is ${Math.ceil(4.4)}`)
+}
+
+function floor(){
+    console.log(`The floating number 4.7 rounded down the nearest integer is ${Math.floor(4.7)}`)
+}
